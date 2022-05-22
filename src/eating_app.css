@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    border-bottom: 2px solid rgb(168, 163, 163);
+    padding:1rem;
+}
+.header h1{
+ font-size: 3rem;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btns a{
+    margin: 1rem;
+    font-size: .7rem;
+}
+.btns a button{
+    padding: .6rem;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(201, 145, 92);
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btns a button:hover{
+    transition: all .3s ease-out;
+    padding: .7rem;
+    background-color: rgb(193, 206, 74);
+}
+.search{
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 13vw;
+    margin-bottom: .5rem;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mappingData{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.items .image img:hover{
+    /* transform:rotate(360deg); */
+    transition: all .5s ease-in;
+    transform: scale(1.5,1.5);
+}
+.items .image img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.credentials{
+    padding: .5rem;
+}
+.credentials h3{
+    width: 5vw;
+    border-radius: 10px;
+    background-color: burlywood;
+    text-align: center;
+    font-weight: bold;
+    margin-top: .7rem;
+    cursor: pointer;
+}
+.credentials h3:hover{
+    transition: all .5s ease-in;
+    width: 7vw;
+    box-shadow: 0px 0px 3px 3px brown;
+    border: 1px solid rgb(206, 27, 27);
+}
